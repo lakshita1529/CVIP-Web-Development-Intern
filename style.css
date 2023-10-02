@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding-right: 5px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000000d4;
+    color: #fff;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+}
+.html, .css{
+    flex-basis: 50%;
+    padding: 10px;
+}
+textarea{
+    width: 110vh;
+    height: 29%;
+    background: #050404df;
+    color:#fff;
+    padding-top: 2px;
+    border: 0;
+    outline: 0;
+    font-size: 15px;
+}
+iframe{
+    width: 100vh;
+    height: 100%;
+    background: #fff;
+    border: 0;
+    outline: 0;
+ margin-left: 0%;
+ padding-left: 5px;
+   
+}
+label i{
+    margin-right: 10px;
+    margin-left: 10px;
+ }
+ label{
+    display: flex;
+    align-items: center;
+    background: #000;
+    height: 30px;
+    
+ }

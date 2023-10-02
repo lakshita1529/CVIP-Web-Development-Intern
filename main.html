@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Editor</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://codemirror.net/lib/codemirror.css">
+    <script type="text/javascript" src="https://codemirror.net/lib/codemirror.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/mode/xml/xml.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/mode/css/css.js"></script>
+    <script type="text/javascript" src="https://codemirror.net/mode/javascript/javascipt.js"></script>
+    
+<body>
+   
+    <div class="main">
+        <div class="left">
+            <label><i class="fa-brands fa-html5"></i> HTML</label>
+          <textarea  id="html" ></textarea>
+
+          <label><i class="fa-brands fa-css3-alt"></i> CSS</label>
+          <textarea  id="css"  ></textarea>
+
+          <label><i class="fa-brands fa-js"></i> JavaScript</label>
+          <textarea  id="js" ></textarea>
+
+        </div>
+        
+        <div class="right">
+            <label><i class="fa-solid fa-play">Output</i></label>
+            <iframe id="output"></iframe>
+        </div>
+ </div>
+
+ <script type="text/JavaScript" src="app.js"></script>
+
+
+</body>
+</html>
